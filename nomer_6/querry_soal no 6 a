@@ -1,0 +1,5 @@
+SELECT n.name,w.name,k.salary FROM
+Name n INNER JOIN Work w ON
+n.id = w.id 
+INNER JOIN Kategori k ON
+w.id_salary = k.id
